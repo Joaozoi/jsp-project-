@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+    color: #ff8c00; /* Cor do título */
+    font-weight: bold; /* Negrito */
+}
+
+h2 {
+    font-size: 20px; /* Tamanho da fonte do subtítulo */
+    color: #ff8c00; /* Cor do subtítulo */
+    margin-bottom: 20px; /* Espaço abaixo do subtítulo */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Espaço abaixo do formulário */
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    transition: border-color 0.3s; /* Efeito de transição ao focar */
+}
+
+input:focus {
+    border-color: #ff8c00; /* Cor da borda ao focar */
+}
+
+button {
+    padding: 10px;
+    background-color: #ff8c00; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e69500; /* Cor do botão ao passar o mouse */
+}
+
+.alert, .success {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.alert {
+    background-color: #ffcccc;
+    color: #a94442;
+    border: 1px solid #a94442;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #155724;
+}
+
+.link {
+    margin-top: 10px; /* Espaço acima do link */
+    font-size: 14px; /* Tamanho da fonte do link */
+}
+
+.link a {
+    color: #ff8c00; /* Cor do link */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+.link a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
