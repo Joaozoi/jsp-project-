@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Timolina</h1> <!-- Título com a classe "title" para estilização -->
+        <h1 class="title">Timolina</h1> 
         <h2>Login</h2>
        
         <% 
@@ -36,14 +36,15 @@
             <label for="senha">Informe sua senha:</label>
             <input type="password" name="senha" required><br>
 
-            <a href="register.jsp" class="forgot-password">Esqueci minha senha</a> <!-- Link para esqueci minha senha -->
+            <a href="register.jsp" class="forgot-password">Esqueci minha senha</a> 
             <button type="submit">Entrar</button>
         </form>
         
-        <div class="register-link">
-            <p>Novo no Timolina?</p>
-            <a href="register.jsp">Crie sua conta Timolina</a> <!-- Link para a página de registro -->
-        </div>
+      <div class="register-link">
+    <p>Novo no Timolina?</p>
+    <a href="http://localhost:8080/Registrar/index.jsp">Crie sua conta Timolina</a> 
+</div>
+
     </div>
 </body>
 </html>
