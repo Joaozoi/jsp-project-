@@ -28,8 +28,8 @@ public class ProdutoServlet extends HttpServlet {
 
 	       
 
-	        request.setAttribute("sucesso", true); // Define mensagem de sucesso
+	        request.setAttribute("sucesso", true); 
 	        request.getRequestDispatcher("views/cadastroProduto.jsp").forward(request, response);
-//	        response.getWriter().println("Produto Cadastrado com Sucesso");
+
 	    }
 	}
